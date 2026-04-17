@@ -1,0 +1,158 @@
+% Overview Figure — \input{overview_figure} from main.tex
+\begin{tikzpicture}[
+    % Global styles
+    font=\sffamily\small,
+    >=Stealth,
+    node distance=0.55cm,
+    % Box styles
+    stagebox/.style={
+      rectangle, rounded corners=4pt, draw=#1!60, fill=#1!8,
+      minimum width=3.6cm, minimum height=0.95cm,
+      align=center, text width=3.4cm, line width=0.8pt
+    },
+    archbox/.style={
+      rectangle, rounded corners=3pt, draw=#1!70, fill=#1!10,
+      minimum width=2.6cm, minimum height=0.6cm,
+      align=center, line width=0.7pt
+    },
+    headbox/.style={
+      rectangle, rounded corners=2pt, draw=#1!70, fill=#1!12,
+      minimum width=1.8cm, minimum height=0.45cm,
+      align=center, font=\sffamily\scriptsize, line width=0.6pt
+    },
+    outputbox/.style={
+      rectangle, rounded corners=4pt, draw=violet!70, fill=violet!8,
+      minimum width=5.6cm, minimum height=0.7cm,
+      align=center, line width=0.9pt, font=\sffamily\small\bfseries
+    },
+    selectedbox/.style={
+      rectangle, rounded corners=4pt, draw=black!80, fill=yellow!12,
+      minimum width=3.6cm, minimum height=0.7cm,
+      align=center, line width=1pt, font=\sffamily\small\bfseries
+    },
+    titletext/.style={font=\sffamily\normalsize\bfseries, text=black!80},
+    subtitletext/.style={font=\sffamily\tiny, text=black!55},
+    arr/.style={->, thick, color=black!50},
+    darr/.style={->, thick, color=black!70, line width=1pt},
+  ]
+
+  % ====================================================================
+  % LEFT SIDE — Three-Stage Pipeline
+  % ====================================================================
+  \node[titletext] (ltitle) at (0, 0) {Three-Stage Pipeline};
+
+  % Stage 1
+  \node[stagebox=blue, below=0.5cm of ltitle] (s1) {
+    \textbf{Stage 1}\\[-1pt]
+    {\scriptsize Baseline Selection}
+  };
+  \node[subtitletext, below=0.05cm of s1] (s1sub) {VGG-16 / ResNet-50 / MobileNetV2 (6 variants)};
+
+  % Stage 2
+  \node[stagebox=teal, below=0.5cm of s1sub] (s2) {
+    \textbf{Stage 2}\\[-1pt]
+    {\scriptsize Multi-Task Fine-Tuning}
+  };
+  \node[subtitletext, below=0.05cm of s2] (s2sub) {Y-Model with ResNet-50 (2 variants)};
+
+  % Stage 3
+  \node[stagebox=orange, below=0.5cm of s2sub] (s3) {
+    \textbf{Stage 3}\\[-1pt]
+    {\scriptsize Improved Model}
+  };
+  \node[subtitletext, below=0.05cm of s3] (s3sub) {EfficientNetV2-S + Focal Loss + AMP (2 variants)};
+
+  % Selected box
+  \node[selectedbox, below=0.55cm of s3sub] (sel) {Best 3 Models Selected};
+
+  % Arrows
+  \draw[darr] (s1) -- (s1sub);
+  \draw[darr] (s1sub) -- (s2);
+  \draw[darr] (s2) -- (s2sub);
+  \draw[darr] (s2sub) -- (s3);
+  \draw[darr] (s3) -- (s3sub);
+  \draw[darr] (s3sub) -- (sel);
+
+  % ====================================================================
+  % DASHED SEPARATOR
+  % ====================================================================
+  \draw[dashed, gray!50, line width=0.8pt] (3.0, 0.3) -- (3.0, -11.5);
+
+  % ====================================================================
+  % RIGHT SIDE — Y-Architecture
+  % ====================================================================
+  \node[titletext] (rtitle) at (7.0, 0) {Y-Architecture};
+
+  % Input image
+  \node[archbox=gray, below=0.5cm of rtitle, minimum width=3cm] (input) {
+    \textbf{Input Image}\\[-2pt]{\tiny 224 $\times$ 224 $\times$ 3}
+  };
+
+  % Backbone
+  \node[archbox=purple, below=0.55cm of input, minimum width=3.8cm, minimum height=0.9cm] (backbone) {
+    \textbf{Shared Backbone}\\[-2pt]{\tiny ResNet-50 / EfficientNetV2-S}
+  };
+
+  % GAP
+  \node[archbox=gray, below=0.55cm of backbone, minimum width=3cm] (gap) {
+    \textbf{Global Avg Pooling}\\[-2pt]{\tiny 2048-d / 1280-d}
+  };
+
+  % ------- Y-Split -------
+  % Left branch — Fruit Head
+  \coordinate (ysplit) at ($(gap.south) + (0, -0.5)$);
+
+  % Fruit head components
+  \node[headbox=blue, below left=0.6cm and 1.2cm of gap] (f1) {FC(2048 $\to$ 256)};
+  \node[headbox=blue, below=0.2cm of f1] (f2) {ReLU};
+  \node[headbox=blue, below=0.2cm of f2] (f3) {Dropout(0.5)};
+  \node[headbox=blue, below=0.2cm of f3] (f4) {FC(256 $\to$ 5)};
+  \node[archbox=blue, below=0.35cm of f4, minimum width=2.2cm, font=\sffamily\scriptsize\bfseries] (fout) {
+    Fruit Type\\[-2pt]{\tiny apple, banana, mango,}\\[-2pt]{\tiny orange, tomato}
+  };
+
+  % Fruit head label
+  \node[font=\sffamily\scriptsize\bfseries, text=blue!70, above=0.08cm of f1] {Branch A: Fruit Head};
+
+  % Right branch — Ripeness Head
+  \node[headbox=teal, below right=0.6cm and 1.2cm of gap] (r1) {FC(2048 $\to$ 256)};
+  \node[headbox=teal, below=0.2cm of r1] (r2) {ReLU};
+  \node[headbox=teal, below=0.2cm of r2] (r3) {Dropout(0.5)};
+  \node[headbox=teal, below=0.2cm of r3] (r4) {FC(256 $\to$ 3)};
+  \node[archbox=teal, below=0.35cm of r4, minimum width=2.2cm, font=\sffamily\scriptsize\bfseries] (rout) {
+    Ripeness Stage\\[-2pt]{\tiny unripe, ripe, overripe}
+  };
+
+  % Ripeness head label
+  \node[font=\sffamily\scriptsize\bfseries, text=teal!70, above=0.08cm of r1] {Branch B: Ripeness Head};
+
+  % Combined output
+  \node[outputbox, below=0.7cm of $(fout.south)!0.5!(rout.south)$] (combined) {
+    Combined Output: 15 Classes
+  };
+  \node[subtitletext, below=0.03cm of combined] (combsub) {e.g., Mango\_Overripe, Apple\_Unripe, \ldots};
+
+  % ------- Arrows -------
+  \draw[arr] (input) -- (backbone);
+  \draw[arr] (backbone) -- (gap);
+
+  % Y-split arrows
+  \draw[arr] (gap.south) -- ++(0, -0.25) -| (f1.north);
+  \draw[arr] (gap.south) -- ++(0, -0.25) -| (r1.north);
+
+  % Head chain arrows
+  \draw[arr] (f1) -- (f2);
+  \draw[arr] (f2) -- (f3);
+  \draw[arr] (f3) -- (f4);
+  \draw[arr] (f4) -- (fout);
+
+  \draw[arr] (r1) -- (r2);
+  \draw[arr] (r2) -- (r3);
+  \draw[arr] (r3) -- (r4);
+  \draw[arr] (r4) -- (rout);
+
+  % Converge arrows to combined output
+  \draw[darr] (fout.south) -- ++(0, -0.25) -| (combined.north west);
+  \draw[darr] (rout.south) -- ++(0, -0.25) -| (combined.north east);
+
+\end{tikzpicture}

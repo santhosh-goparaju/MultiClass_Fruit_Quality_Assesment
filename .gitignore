@@ -1,0 +1,18 @@
+# Model weights (too large for GitHub)
+*.pth
+
+# OS files
+.DS_Store
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.log
+*.aux
+*.out
+*.synctex.gz
