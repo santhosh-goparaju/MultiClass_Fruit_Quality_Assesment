@@ -280,16 +280,6 @@ $$FL(p_t) = -(1 - p_t)^{\gamma} \log(p_t)$$
 
 ---
 
-## 👥 Team
-
-| Name | Role |
-|------|------|
-| **Santhosh Goparaju** | Model Development & Training |
-
-> *EE655 — Course Project*
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
