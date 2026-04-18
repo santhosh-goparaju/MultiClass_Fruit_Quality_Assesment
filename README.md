@@ -121,7 +121,7 @@ The dataset contains images of **5 fruit types × 3 ripeness levels = 15 classes
 | 🍊 Orange | ✅ | ✅ | ✅ |
 | 🍅 Tomato | ✅ | ✅ | ✅ |
 
-**⚠️ Note:** The dataset exhibits class imbalance — the "ripe" category is underrepresented, which motivates our use of focal loss and class weighting.
+**⚠️ Note:** The dataset exhibits class imbalance — the "Overripe" category is underrepresented, which motivates our use of focal loss and class weighting.
 
 ---
 
@@ -129,7 +129,7 @@ The dataset contains images of **5 fruit types × 3 ripeness levels = 15 classes
 
 ### Final Model Comparison (Test Set)
 
-| Model | Backbone | Test Accuracy | F1 (Ripe) | F1 (Macro) |
+| Model | Backbone | Test Accuracy | F1 (Overripe) | F1 (Macro) |
 |-------|----------|:------------:|:---------:|:----------:|
 | Best Baseline | ResNet-50 (Improved) | — | — | — |
 | Best Fine-Tuned | ResNet-50 (Y-Model) | — | — | — |
@@ -137,7 +137,7 @@ The dataset contains images of **5 fruit types × 3 ripeness levels = 15 classes
 
 ### Training Progress — Best Model (Stage 3)
 
-| Epoch | Val Loss | Val Accuracy | F1 (Ripe) |
+| Epoch | Val Loss | Val Accuracy | F1 (Overripe) |
 |:-----:|:--------:|:------------:|:---------:|
 | 1 | 0.1316 | 80.5% | 0.833 |
 | 5 | 0.0467 | 91.1% | 0.908 |
@@ -179,7 +179,7 @@ python member3_train.py
 # Ablation: without focal loss
 python member3_train.py --no_focal
 
-# Custom task weights (prioritise ripeness)
+# Custom task weights (prioritise Overripeness)
 python member3_train.py --alpha 0.3 --beta 0.7
 ```
 
@@ -272,7 +272,7 @@ $$FL(p_t) = -(1 - p_t)^{\gamma} \log(p_t)$$
 
 | Improvement | Impact |
 |-------------|--------|
-| Focal Loss ($\gamma=2.0$) | ↑ F1 (Ripe) — focuses on hard/minority samples |
+| Focal Loss ($\gamma=2.0$) | ↑ F1 (Overripe) — focuses on hard/minority samples |
 | Inverse-frequency class weights | ↑ Recall for underrepresented classes |
 | EfficientNetV2-S backbone | ↑ Accuracy — better fine-texture extraction |
 | Mixed-precision (FP16 AMP) | ↓ Memory ~40%, ↑ Training speed |
