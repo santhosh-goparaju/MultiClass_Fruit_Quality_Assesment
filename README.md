@@ -129,11 +129,11 @@ The dataset contains images of **5 fruit types × 3 ripeness levels = 15 classes
 
 ### Final Model Comparison (Test Set)
 
-| Model | Backbone | Test Accuracy | F1 (Overripe) | F1 (Macro) |
-|-------|----------|:------------:|:---------:|:----------:|
-| Best Baseline | ResNet-50 (Improved) | — | — | — |
-| Best Fine-Tuned | ResNet-50 (Y-Model) | — | — | — |
-| **Best Improved** | **EfficientNetV2-S (Y-V2)** | **95.3%** | **0.950** | **—** |
+| Model | Backbone | Test Accuracy | F1 (Overripe) | 
+|-------|----------|:------------:|:---------:|
+| Best Baseline | ResNet-50 (Improved) | 94.88 | 0.9487 | 
+| Best Fine-Tuned | ResNet-50 (Y-Model) | 94.88 | 0.9488 |
+| **Best Improved** | **EfficientNetV2-S (Y-V2)** | **95.3%** | **0.950** | 
 
 ### Training Progress — Best Model (Stage 3)
 
