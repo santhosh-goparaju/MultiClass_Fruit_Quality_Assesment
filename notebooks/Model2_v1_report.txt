@@ -1,0 +1,25 @@
+ResNet50 v1 — 2-Phase Fine-Tune
+Phase 1 Acc: 94.28%
+Phase 2 Acc: 95.18%
+
+                 precision    recall  f1-score   support
+
+ apple_overripe     1.0000    0.9474    0.9730        19
+     apple_ripe     0.9844    0.9844    0.9844        64
+   apple_unripe     0.8788    0.8056    0.8406        36
+banana_overripe     1.0000    1.0000    1.0000        20
+    banana_ripe     1.0000    1.0000    1.0000        15
+  banana_unripe     1.0000    1.0000    1.0000        14
+ mango_overripe     1.0000    0.9000    0.9474        10
+     mango_ripe     0.9375    1.0000    0.9677        15
+   mango_unripe     1.0000    0.8000    0.8889        15
+orange_overripe     0.9608    1.0000    0.9800        49
+    orange_ripe     1.0000    0.8889    0.9412         9
+  orange_unripe     0.8140    0.9459    0.8750        37
+tomato_overripe     1.0000    1.0000    1.0000         6
+    tomato_ripe     1.0000    1.0000    1.0000        12
+  tomato_unripe     1.0000    1.0000    1.0000        11
+
+       accuracy                         0.9518       332
+      macro avg     0.9717    0.9515    0.9599       332
+   weighted avg     0.9545    0.9518    0.9516       332

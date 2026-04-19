@@ -1,0 +1,28 @@
+ResNet50 v3 — Progressive Fine-Tune + TTA
+Phase 1 Val Acc : 93.67%
+Phase 2 Val Acc : 95.48%
+Phase 3 Val Acc : 95.48%
+Standard Acc    : 95.48%
+TTA Acc         : 94.88%
+
+                 precision    recall  f1-score   support
+
+ apple_overripe     1.0000    0.8947    0.9444        19
+     apple_ripe     0.9692    0.9844    0.9767        64
+   apple_unripe     0.9118    0.8611    0.8857        36
+banana_overripe     1.0000    1.0000    1.0000        20
+    banana_ripe     1.0000    1.0000    1.0000        15
+  banana_unripe     1.0000    1.0000    1.0000        14
+ mango_overripe     0.9000    0.9000    0.9000        10
+     mango_ripe     0.8824    1.0000    0.9375        15
+   mango_unripe     1.0000    0.8000    0.8889        15
+orange_overripe     0.9792    0.9592    0.9691        49
+    orange_ripe     0.8889    0.8889    0.8889         9
+  orange_unripe     0.8333    0.9459    0.8861        37
+tomato_overripe     1.0000    1.0000    1.0000         6
+    tomato_ripe     1.0000    1.0000    1.0000        12
+  tomato_unripe     1.0000    1.0000    1.0000        11
+
+       accuracy                         0.9488       332
+      macro avg     0.9576    0.9489    0.9518       332
+   weighted avg     0.9515    0.9488    0.9488       332

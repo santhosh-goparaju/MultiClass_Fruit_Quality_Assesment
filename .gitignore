@@ -17,3 +17,32 @@ __pycache__/
 *.out
 *.synctex.gz
 ~$*
+
+
+venv/
+Demo/**/venv/
+__pycache__/
+*.pyc
+
+# models
+*.keras
+*.h5
+
+# outputs
+*.png
+*.jpg
+*.csv
+
+# large folders
+Demo/EE655_project_demo/models/
+src/Model_2_Final/model2_complete_outputs/
+
+# environment
+venv/
+
+
+*.keras
+*.h5
+Demo/EE655_project_demo/models/
+src/Model_2_Final/model2_complete_outputs/
+venv/

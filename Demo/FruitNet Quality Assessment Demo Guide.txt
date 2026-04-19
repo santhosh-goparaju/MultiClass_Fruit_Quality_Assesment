@@ -1,0 +1,122 @@
+FruitNet Quality Assessment Demo Guide
+
+This guide provides a comprehensive overview of the FruitNet Quality Assessment Demo, including the system architecture, file requirements, and step-by-step instructions for execution.
+
+------------------------------------------------------------
+1. Overview of the FruitNet Framework
+------------------------------------------------------------
+
+FruitNet is a deep learning-based system designed to jointly classify fruit type and ripeness from a single RGB image.
+
+The system handles a 15-class fine-grained task spanning:
+- Five fruit categories: apple, banana, mango, orange, tomato
+- Three maturity levels: unripe, ripe, overripe
+
+The framework evolved through a three-stage progressive pipeline:
+
+Stage 1 (Baseline):
+Selection of the best feature extractor (Improved ResNet-50)
+
+Stage 2 (Fine-Tuned):
+Implementation of a Y-shaped multi-task architecture with shared features
+
+Stage 3 (Improved):
+Incorporation of an EfficientNetV2-S backbone, Focal Loss, and inverse-frequency class weighting
+Final test accuracy: 95.13%
+
+------------------------------------------------------------
+2. File Structure and Requirements
+------------------------------------------------------------
+
+Included Files:
+
+app.py
+- Primary Gradio interface script
+- Handles UI, model routing, and performance tracking (latency and confidence)
+
+gradcam.py
+- Contains logic for generating visual attention heatmaps
+- Supports both Keras and PyTorch models
+
+models/
+- Directory containing pretrained weights:
+  - ResNet50_FULL_MODEL.keras (Stage 1 baseline model)
+  - ResNet50_V3_FULL_MODEL.keras (Stage 2 multi-task model)
+  - best_ymodel.pth (Stage 3 EfficientNetV2-S model)
+
+examples/
+- Contains test images (e.g., tomato_overripe.jpg)
+- Used to demonstrate model performance
+
+------------------------------------------------------------
+Software Requirements
+------------------------------------------------------------
+
+Install the following libraries:
+
+- gradio (web interface)
+- tensorflow==2.15.0 (for Stage 1 and Stage 2 models)
+- torch and torchvision (for Stage 3 model)
+- opencv-python (cv2) (image processing and Grad-CAM)
+- numpy (numerical operations)
+
+------------------------------------------------------------
+3. How to Run the Demo (Step-by-Step)
+------------------------------------------------------------
+
+Note:
+Due to hardware instruction set requirements (AVX), this demo is optimized for Google Colab.
+
+Step 1: Environment Setup
+
+Open a new Google Colab notebook and install dependencies:
+
+!pip install gradio tensorflow==2.15.0
+
+------------------------------------------------------------
+
+Step 2: Upload Project Files
+
+Use the file sidebar in Colab and ensure this structure:
+
+/content/app.py  
+/content/gradcam.py  
+/content/models/        (upload weights here)  
+/content/examples/      (upload test images here)  
+
+------------------------------------------------------------
+
+Step 3: Execute the Application
+
+Run the following command:
+
+!python app.py
+
+------------------------------------------------------------
+
+Step 4: Access the UI
+
+After execution, Colab will provide a public Gradio URL
+(e.g., https://xxxx.gradio.live)
+
+Click the link to open the interactive dashboard.
+
+------------------------------------------------------------
+4. Key Demo Features
+------------------------------------------------------------
+
+Model Selector:
+- Switch between Stage 1, Stage 2, and Stage 3
+- Observe improvements in accuracy and attention focus
+
+Joint Classification:
+- Stage 3 model predicts both fruit type and ripeness
+- Provides top-3 confidence scores
+
+Grad-CAM Visualization:
+- Displays heatmaps showing important regions
+- Focus areas include texture, color, and skin spots
+
+Inference Speedometer:
+- Shows real-time processing latency (in milliseconds)
+- Demonstrates suitability for high-throughput environments

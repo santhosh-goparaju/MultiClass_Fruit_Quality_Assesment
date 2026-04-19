@@ -1,0 +1,618 @@
+image_path,fruit,ripeness,source,label
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0133.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0310.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0098.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0226.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0277.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0287.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0218.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0294.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0017.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0296.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0095.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0226.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0379.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0601.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0273.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0451.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0229.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0788.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0058.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0319.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0028.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0220.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0089.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0281.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0131.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Ripe\tomato_ripe_base_0006.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0571.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0121.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0079.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0054.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0326.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0227.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0022.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0298.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0064.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0166.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0082.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0455.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0233.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0240.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0371.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0303.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0072.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0107.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0040.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0193.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0091.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0070.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0288.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0061.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0791.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0133.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0046.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0014.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0523.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0383.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0073.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0353.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0440.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0107.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0792.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0182.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0193.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0112.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0149.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0280.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0030.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0082.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0019.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0042.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0278.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0273.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0020.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0536.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0303.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0015.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0678.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0251.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0369.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0049.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0070.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0306.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0014.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0603.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0151.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0112.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0123.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0039.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0073.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0099.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0478.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0017.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\apple_unripe_base_0012.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0117.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0188.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0158.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0101.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0130.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0490.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0094.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\tomato_unripe_base_0010.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0119.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0160.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0385.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0270.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0426.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0352.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0094.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0392.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0156.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0194.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0214.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0209.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0259.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0695.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0004.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\orange_overripe_base_0010.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0093.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0085.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0082.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0295.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0100.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0440.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0043.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0162.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0099.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0090.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0038.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0049.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0050.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0173.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0140.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0557.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0059.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0007.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0181.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0509.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0046.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0581.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0233.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0336.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0158.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0179.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0523.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0053.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0327.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0284.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0316.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0031.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0079.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0015.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0034.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0031.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0092.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0007.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0285.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0061.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0291.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0063.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0116.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0062.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0023.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0223.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0333.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0600.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0151.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0187.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0430.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0305.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0216.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0275.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0051.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0018.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0057.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0467.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0426.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0184.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0046.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0144.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0184.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0042.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0048.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0201.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0279.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0102.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0035.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0006.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0492.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0289.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0671.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0114.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0218.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0012.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0454.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0018.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0066.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0424.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0031.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0138.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0155.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\apple_unripe_base_0001.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0038.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0233.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0185.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0149.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0445.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0102.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0119.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0210.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0264.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0147.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0298.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0285.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0125.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0376.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0460.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0654.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0021.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0280.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0112.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0085.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0475.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0057.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0595.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0166.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0303.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0058.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0034.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0215.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0247.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0112.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0431.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0020.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0176.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0191.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0069.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0485.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0027.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0324.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0146.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0786.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0081.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0395.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0015.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0082.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0211.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0166.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0219.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0502.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0535.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0421.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0737.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0552.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0139.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0416.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0093.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0230.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0224.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0472.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0192.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0239.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0508.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0079.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0017.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0700.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0089.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0304.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0326.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0192.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0041.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0712.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0029.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0047.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0470.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0216.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0243.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0202.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0306.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0084.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0325.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0087.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0403.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0263.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0342.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0139.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0126.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0007.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0059.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0330.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0094.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0195.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0303.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\tomato_overripe_base_0016.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0112.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0104.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0057.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0145.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0435.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0025.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0239.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0448.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0148.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0208.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0033.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0153.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0101.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0716.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0154.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0067.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0294.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0533.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0444.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0194.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0492.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0108.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0201.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0170.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0317.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0237.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0607.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0120.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0108.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0119.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\orange_unripe_base_0002.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0031.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0064.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0053.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0549.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0056.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0046.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0224.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0152.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0800.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0082.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0163.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0073.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0196.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0781.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0018.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\ripe\orange_ripe_web_0011.jpg,orange,ripe,web,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0289.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0244.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0138.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0145.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0001.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0236.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0013.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0084.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0525.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0078.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0009.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0170.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0081.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0032.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0042.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0587.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0323.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0267.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0147.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0176.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0177.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0713.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0103.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0224.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0125.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0508.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0122.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0247.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0473.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Ripe\mango_ripe_base_0002.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0063.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0347.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0607.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0597.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\tomato_overripe_base_0002.jpg,tomato,overripe,base,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0534.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0225.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0469.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0192.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0289.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0563.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0225.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0120.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0118.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0399.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0176.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0542.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0220.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0571.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0249.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0256.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0412.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0164.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0058.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0113.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0624.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0055.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0008.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0070.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0371.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0078.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\mango_unripe_base_0005.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0209.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0047.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0475.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0471.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0079.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0199.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0169.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0142.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0010.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0129.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0242.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0028.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0196.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0285.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0039.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0053.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0383.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0388.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0503.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0218.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0486.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0365.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0054.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0569.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0205.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0268.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0019.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0165.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0301.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0431.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Unripe\apple_unripe_base_0005.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0442.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0144.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0230.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0300.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0063.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0288.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0029.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0360.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0336.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0262.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0238.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0054.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0474.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0147.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0076.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0103.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0022.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0235.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0086.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0043.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0264.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0171.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0182.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0106.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0232.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0107.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0425.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0077.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0022.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0054.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0344.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0164.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0396.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0158.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0112.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0040.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0089.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0073.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\orange_overripe_base_0098.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0047.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0188.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0113.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0010.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0270.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0353.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0198.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0017.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0063.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0088.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0196.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0706.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0128.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0463.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0053.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0069.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0130.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0106.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0165.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0049.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0029.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0068.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0028.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0129.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0635.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0284.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0011.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0479.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0178.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0112.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0070.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0271.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\orange_ripe_base_0082.jpg,orange,ripe,base,orange_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0238.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0280.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0120.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0022.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0437.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\mango_overripe_base_0004.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0142.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0168.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0034.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0093.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0445.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0258.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0271.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0490.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0117.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0037.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0261.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0159.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0607.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0075.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0012.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0069.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0036.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0038.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0044.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0078.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0053.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Unripe\tomato_unripe_kaggle2_0283.jpg,tomato,unripe,kaggle2,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0109.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0548.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0036.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0049.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0492.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0163.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0060.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0214.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0083.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0060.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0294.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0191.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\mango_overripe_base_0031.jpg,mango,overripe,base,mango_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0020.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0200.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0236.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0381.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0104.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0091.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0192.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0017.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0081.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0144.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\orange_overripe_base_0001.jpg,orange,overripe,base,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\orange_unripe_base_0123.jpg,orange,unripe,base,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0055.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0387.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0306.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0141.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0071.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0202.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0215.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0066.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0085.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0185.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\apple_overripe_base_0015.jpg,apple,overripe,base,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0559.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0166.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0277.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0110.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0445.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0273.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\overripe\apple_overripe_web_0027.jpg,apple,overripe,web,apple_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0376.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0276.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0065.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Reject\tomato_overripe_kaggle2_0496.jpg,tomato,overripe,kaggle2,tomato_overripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\unripe\apple_unripe_web_0066.jpg,apple,unripe,web,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0132.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0227.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0218.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0287.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0232.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0302.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0230.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0453.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0487.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0059.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0082.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0522.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\tomato_unripe_base_0195.jpg,tomato,unripe,base,tomato_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0373.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0061.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\banana_unripe_base_0428.jpg,banana,unripe,base,banana_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0148.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0111.jpg,tomato,ripe,base,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Overripe\banana_overripe_base_0237.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0670.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0155.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0499.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\tomatos\Three Classes\Ripe\tomato_ripe_kaggle2_0160.jpg,tomato,ripe,kaggle2,tomato_ripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\overripe\orange_overripe_web_0049.jpg,orange,overripe,web,orange_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0151.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Test\Overripe\banana_overripe_base_0002.jpg,banana,overripe,base,banana_overripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0345.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0341.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\banana_ripe_base_0309.jpg,banana,ripe,base,banana_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\apple_unripe_base_0229.jpg,apple,unripe,base,apple_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\orange\unripe\orange_unripe_web_0051.jpg,orange,unripe,web,orange_unripe
+C:/Users/capaw/Downloads/CommonDataset\data_scrapped\apple\ripe\apple_ripe_web_0226.jpg,apple,ripe,web,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\apple_ripe_base_0263.jpg,apple,ripe,base,apple_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\mango_ripe_base_0099.jpg,mango,ripe,base,mango_ripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Unripe\mango_unripe_base_0343.jpg,mango,unripe,base,mango_unripe
+C:/Users/capaw/Downloads/CommonDataset\base\Train\Ripe\tomato_ripe_base_0206.jpg,tomato,ripe,base,tomato_ripe
